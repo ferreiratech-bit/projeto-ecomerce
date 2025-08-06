@@ -20,36 +20,51 @@
 
 <body>
     <header class="cabecalho">
-        <a href="">
-            <img src="./assets/images/logo.svg" alt="Dev em Dobro">
-        </a>
+        <div class="header-conteudo">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
+            <div class="header-esquerda">
 
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="#produtos">Produtos</a>
-                </li>
-                <li>
-                    <a href="#faq">Perguntas Frequentes</a>
-                </li>
+                <button class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
-                <li>
-                    <a href="#contato">Fale Conosco</a>
-                </li>
+                <a class="logo">
+                    <img src="./assets/images/logo.svg" alt="Dev em Dobro">
+                </a>
 
-            </ul>
-        </nav>
+            </div>
 
-        <BUtton>
-            <img src="" alt="">
-        </BUtton>
+            <nav class="menu-principal">
+
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#faq">Perguntas Frequentes</a>
+                    </li>
+
+                    <li>
+                        <a href="#contato">Fale Conosco</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <button class="botao-carrinho" data-micromodal-trigger="modal-1">
+                <img src="./assets/images/icone_carrinho.svg" alt="carrinho de compras" />
+                <span id="contador-carrinho">0</span>
+            </button>
+        </div>
     </header>
     <main>
         <section>
@@ -62,7 +77,7 @@
                     </figure>
                     <div>
                         <span>cor: roxa</span>
-                        <span>Tamnho: M</span>
+                        <span>Tamanho: M</span>
                         <span>R$ 89,00</span>
                         <button>Adicionar ao carrinho</button>
 
@@ -75,7 +90,7 @@
                     </figure>
                     <div>
                         <span>cor: roxa</span>
-                        <span>Tamnho: P</span>
+                        <span>Tamanho: P</span>
                         <span>R$ 100,00</span>
                         <button>Adicionar ao carrinho</button>
                     </div>
@@ -142,7 +157,7 @@
                         <thead>
                             <tr>
                                 <th>Produto</th>
-                                <th>Descriçao</th>
+                                <th>Descriçâo</th>
                                 <th>Preço</th>
                                 <th>Quantidade</th>
                                 <th>Total</th>
