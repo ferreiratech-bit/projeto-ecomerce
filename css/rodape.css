@@ -55,7 +55,7 @@
 }
 @media(min-width: 1120px) {
     .rodape .container {
-        background-color: red;
+        background-color: var(--cor-cinza-escura);
         width: 1170px;
         margin: 0 auto;
     }

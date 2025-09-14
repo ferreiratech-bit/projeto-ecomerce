@@ -116,6 +116,10 @@
         flex-direction: row;
     }
 
+    .menu-hamburguer {
+        display: none;
+    }
+
     
     menu-hamburguer {
         display: none;
